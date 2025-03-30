@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Fira Sans";
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+#ui {
+  padding: 1em 1.5em;
+  padding-top: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  position: absolute;
+  z-index: 10;
+  border: solid 1px black;
+  box-shadow:  -1px 1px #77aaff,
+		 -2px 2px #77aaff,
+		 -3px 3px #77aaff,
+		 -4px 4px #77aaff,
+		 -5px 5px #77aaff;
+  border-radius: 50px;
+  background: #F5F5F5;
+  transition: all 0.8s ease-in-out;
+}
+
+#form input {
+  width: 70%;
+  height: 30px;
+  font-family: "Fira Sans";
+  font-size: 1.5rem;
+}
+
+#form button {
+  height: 100%;
+  font-family: "Fira Sans";
+  font-size: 1.5rem;
+}
+
+#ui.top-corner {
+  top: 10%;
+  left: 10%;
+  transform: translate(-10%, -10%); 
+  width: 20%;
+}
+

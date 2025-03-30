@@ -1,7 +1,9 @@
-```markdown
+````markdown
 # CheapestRoutes.com
 
-A simple API that helps music fans find the most affordable way to see their favorite artists live. Tell us who you want to see and where you're located - we'll find the cheapest route to their concerts.
+A simple API that helps music fans find the most affordable way to see their
+favorite artists live. Tell us who you want to see and where you're located -
+we'll find the cheapest route to their concerts.
 
 ## How It Works
 
@@ -28,6 +30,7 @@ yarn install
 # Start development server
 yarn dev
 ```
+````
 
 Server runs at http://localhost:3000
 
@@ -48,11 +51,11 @@ Server runs at http://localhost:3000
 
 ## Scripts
 
-| Script | Description |
-|--------|-------------|
-| `yarn dev` | Development with hot reload |
-| `yarn build` | Compile TS to dist/ |
-| `yarn start` | Run compiled version |
+| Script       | Description                 |
+| ------------ | --------------------------- |
+| `yarn dev`   | Development with hot reload |
+| `yarn build` | Compile TS to dist/         |
+| `yarn start` | Run compiled version        |
 
 ## Roadmap
 
@@ -65,6 +68,7 @@ Server runs at http://localhost:3000
 
 ## License
 
-MIT License(./LICENSE)
-Copyright (c) 2025 Rohit R. Mohanty
+MIT License(./LICENSE) Copyright (c) 2025 Rohit R. Mohanty
+
+```
 ```
